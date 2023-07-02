@@ -7,6 +7,6 @@ def generate_pass(length):
     return password
 
 if __name__ =='__main__':
-    pass_length = int(input("enter the length of the password "))
+    pass_length = 10
     generate_pass = generate_pass(pass_length)
     print("password is ", generate_pass)
